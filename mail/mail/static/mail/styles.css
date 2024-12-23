@@ -1,0 +1,30 @@
+textarea {
+    min-height: 400px;
+}
+
+#emails-view .box{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.is_read {
+    background-color: gainsboro;
+}
+
+
+.btn-email{
+    margin: 10px auto;
+    padding: 5px 10px;
+    /* width: 50px; */
+    border: none;
+    border-radius: 5px;
+    box-sizing: content-box;
+    background-color: #34495ec4;
+    color: white;
+    text-align: center;
+}
